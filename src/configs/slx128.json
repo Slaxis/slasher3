@@ -1,0 +1,14 @@
+{
+    "train": true,
+    "trainer_local_or_cloud": "local",
+    "trainer_training_set": ["shenzhen"],
+    "trainer_splitter": "shenzhen_table_from_raw_splitted.csv", 
+    "trainer_random_seed": 999,
+    "trainer_batch_size": 32,
+    "trainer_max_images": null,
+    "trainer_output_width": 64,
+    "slasher_epochs": 50,
+    "slasher_training_lr": 0.01,
+    "slasher_patience" : 10,
+    "slasher_override_device": false
+}

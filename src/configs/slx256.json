@@ -1,0 +1,16 @@
+{
+    "name" : null,
+    "train": true,
+    "local_or_cloud": "local",
+    "training_set": ["shenzhen"],
+    "splitter": "shenzhen_table_from_raw_splitted.csv", 
+    "random_seed": 999,
+    "batch_size": 8,
+    "max_images": null,
+    "output_width": 256,
+    "epochs": 50,
+    "training_lr": 0.01,
+    "patience" : 10,
+    "override_device": false,
+    "use_dorothy": true
+}
